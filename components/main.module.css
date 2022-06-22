@@ -1,0 +1,23 @@
+main .skills::before,
+main .contact::before,
+main .projects::before
+{
+    @apply absolute -bottom-3 !left-1/2 -translate-x-1/2  rounded-lg block w-10 h-1 
+}
+
+main .skills{
+    /* display: none !important; */
+}
+
+@media screen and ( max-width: 340px ) {
+    main .btn_container{
+        @apply !flex-col space-y-4
+    }
+    main .btn_container button{
+        @apply !ml-0 text-center flex justify-center
+    }
+    main .heroImg{
+        @apply w-[250px] h-[250px] rounded-full
+    }
+    
+}
