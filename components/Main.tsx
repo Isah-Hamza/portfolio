@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 import { } from 'react-icons';
-import { AiTwotonePhone } from 'react-icons/ai';
+import { AiTwotonePhone, AiFillGithub } from 'react-icons/ai';
 import { BiCard } from 'react-icons/bi';
 import { FiMail } from 'react-icons/fi';
 import { GoLocation } from 'react-icons/go';
@@ -70,9 +70,14 @@ const Main = () => {
                     <p className='text-slate-900 font-semibold mb-4  text-lg'>An Experienced Web Developer</p>
                     <p className='text-justify'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, atque reiciendis nobis blanditiis quas accusamus est! At vitae nemo, 
                         odio quasi inventore atque minima commodi ex maxime aspernatur voluptatem ipsam. </p>
-                    <div className = {`${styles.btn_container} mt-6 space-x-4 flex justify-center md:justify-start  md:flex-row `}>
-                        <button className='flex items-center bg-blue-600 rounded-md text-white px-6 py-2 transition-all duration-500 ease-in hover:bg-blue-900'> <span className='mr-2'><BiCard /></span> Download CV</button>
-                        <button className='flex items-center rounded-md border border-blue-600 px-6 py-2 transition-all duration-500 ease-in hover:bg-blue-100 '> <span className='mr-2'><AiTwotonePhone /> </span>Contact</button>
+                    <div className = {`${styles.btn_container} mt-6 space-x-3 sm:space-x-4 flex justify-center md:justify-start  md:flex-row `}>
+                        <button className='flex items-center bg-blue-600 rounded-md text-white whitespace-nowrap px-4 sm:px-6 py-2 transition-all duration-500 ease-in hover:bg-blue-900'> <span className='mr-2'><BiCard /></span> Download CV</button>
+                        <button className=' rounded-md border border-blue-600 whitespace-nowrap px-4 sm:px-6 py-2 transition-all duration-500 ease-in hover:bg-blue-100 '>
+                            <a href="https://github.com/Isah-Hamza" className='flex items-center'>
+                             <span className='mr-2'><AiFillGithub /> </span>
+                             <span> Works on Github</span>
+                            </a>
+                        </button>
                     </div>
             </div>
         </section>
@@ -213,7 +218,7 @@ const Main = () => {
                             </div>
                             <div className=' bg-black bg-opacity-50 rounded-b-md p-5 py-6 text-white opacity-95  '>
                                 <p> <span className='font-bold' >Title</span>: KadPay</p>
-                                <p> <span className='font-bold' >Link:</span> 
+                                <p> <span className='font-bold' >Link: </span> 
                                     <a href="http://crowdfund-landingpage.netlify.app">
                                         crowdfund
                                         </a>
@@ -238,7 +243,7 @@ const Main = () => {
                             <p className='w-6 text-lg pt-[10px]'><GoLocation  className='' /> </p>
                             <div className='flex-1 ml-4'>
                                 <p className='font-bold text-xl mb-2'>Location</p>
-                                <p>24A, Ikaraworo Along Ado Ibrahim Street <br /> Okene, Kogi, State</p>
+                                <p>24A, Ikaraworo Along Ado Ibrahim Street <br /> Okene, Kogi State, Nigeria</p>
                             </div>
                         </div>
                         <div className='flex p-6 pb-0 px-4 items-start'>
