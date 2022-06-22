@@ -82,15 +82,15 @@ const Main = () => {
             <div>
                 <p className={` ${styles.skills} before:bg-blue-500 relative text-center text-3xl font-bold font-mono mb-16 ` }>Skills/Experience</p>
                 <div className='flex gap-6 flex-wrap grow ' >
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/html.jpg" alt="html" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/css.jpg" alt="css" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/react.png" alt="react" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/next.jpg" alt="next" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/js.png" alt="js" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/ts.png" alt="ts" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/sass.png" alt="sass" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/tailwind.png" alt="tailwind" /></div>
-                    <div data-aos = "fade-up" className='grow md:w-1/4 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/git.png" alt="git" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/html.jpg" alt="html" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/css.jpg" alt="css" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/react.png" alt="react" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/next.jpg" alt="next" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/js.png" alt="js" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/ts.png" alt="ts" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/sass.png" alt="sass" /></div>
+                    <div data-aos = "fade-up" className='grow md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/tailwind.png" alt="tailwind" /></div>
+                    <div data-aos = "fade-up" className='grow xxl:grow-0 md:w-1/4 xxl:w-1/5 md:h-40'><img className='w-full object-fill object-center h-[50px] md:h-full' src = "/assets/images/git.png" alt="git" /></div>
                 </div>
             </div>
         </section>
